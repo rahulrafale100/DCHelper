@@ -11,13 +11,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn=findViewById(R.id.button);
-        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
-        for(int i=0;i<10;i++){
-            System.out.println("Fuck u");
-        }
-        for(true){
-            System.out.println("Hello Wolrd");
-        }
     }
 }

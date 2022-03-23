@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "675625958353",
+    "project_id": "dchelper-e056e",
+    "storage_bucket": "dchelper-e056e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675625958353:android:df064ce7260b7fd50a3ef0",
+        "android_client_info": {
+          "package_name": "com.example.dchelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675625958353-bu2bq0sidavjbrgai5e3hv10aq18ivbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dchelper",
+            "certificate_hash": "9bebeb7d324582fb036bc46131e30e3e0d7688c8"
+          }
+        },
+        {
+          "client_id": "675625958353-2qec788i51jpjhism5fd760s9b7alsmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5T1na29jMu7YxVOhvuE0SiXiG85DGm88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675625958353-2qec788i51jpjhism5fd760s9b7alsmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,19 +1,17 @@
 package com.example.dchelper.login;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.dchelper.R;
 import com.example.dchelper.admin.AdminDashboardActivity;
@@ -69,8 +67,8 @@ public class LoginActivity extends AppCompatActivity {
             // The Task returned from this call is always completed, no need to attach
             // a listener.
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            startActivity(new Intent(LoginActivity.this, AdminDashboardActivity.class));
-            //handleSignInResult(task);
+            //startActivity(new Intent(LoginActivity.this, AdminDashboardActivity.class));
+            handleSignInResult(task);
         }
     }
 

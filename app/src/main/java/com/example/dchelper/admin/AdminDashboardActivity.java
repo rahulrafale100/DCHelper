@@ -10,7 +10,7 @@ import android.view.View;
 
 
 import com.example.dchelper.R;
-import com.example.dchelper.admin.manageFaculty.Faculty;
+import com.example.dchelper.admin.manageFaculty.FacultyListActivity;
 import com.example.dchelper.admin.manageVenue.Venue;
 
 public class AdminDashboardActivity extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class AdminDashboardActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(AdminDashboardActivity.this, Faculty.class));
+                startActivity(new Intent(AdminDashboardActivity.this, FacultyListActivity.class));
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {

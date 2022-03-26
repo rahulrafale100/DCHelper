@@ -1,16 +1,19 @@
 package com.example.dchelper.admin.manageFaculty;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class Faculty {
+    private String name;
+    private String id;
 
-import android.os.Bundle;
+    public String getName() {
+        return name;
+    }
 
-import com.example.dchelper.R;
-
-public class Faculty extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_manage_faculty);
+    public String getId() {
+        return id;
+    }
+    Faculty(){}
+    public Faculty(String name, String id) {
+        this.name = name;
+        this.id = id;
     }
 }

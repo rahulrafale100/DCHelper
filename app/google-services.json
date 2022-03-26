@@ -1,20 +1,21 @@
 {
   "project_info": {
-    "project_number": "675625958353",
-    "project_id": "dchelper-e056e",
-    "storage_bucket": "dchelper-e056e.appspot.com"
+    "project_number": "680714216984",
+    "firebase_url": "https://dchelper-48256-default-rtdb.firebaseio.com",
+    "project_id": "dchelper-48256",
+    "storage_bucket": "dchelper-48256.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:675625958353:android:df064ce7260b7fd50a3ef0",
+        "mobilesdk_app_id": "1:680714216984:android:e05c243f91a3c944cc856d",
         "android_client_info": {
           "package_name": "com.example.dchelper"
         }
       },
       "oauth_client": [
         {
-          "client_id": "675625958353-bu2bq0sidavjbrgai5e3hv10aq18ivbf.apps.googleusercontent.com",
+          "client_id": "680714216984-uh2gjvlctd30kksamd90b9uokt6pq3ea.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.dchelper",
@@ -22,20 +23,20 @@
           }
         },
         {
-          "client_id": "675625958353-2qec788i51jpjhism5fd760s9b7alsmr.apps.googleusercontent.com",
+          "client_id": "680714216984-iffgvdnbrpjdtu9vuud2idntofmk35e2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB5T1na29jMu7YxVOhvuE0SiXiG85DGm88"
+          "current_key": "AIzaSyBxcW5h0sHRWye7_abW-ls5e2gHd_pyblM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "675625958353-2qec788i51jpjhism5fd760s9b7alsmr.apps.googleusercontent.com",
+              "client_id": "680714216984-iffgvdnbrpjdtu9vuud2idntofmk35e2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
